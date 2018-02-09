@@ -1,0 +1,45 @@
+!------------------------------------------------------------------------------
+! c o l o r -  s e t t i n g s
+
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+URxvt.background: #282C35
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
+
+!------------------------------------------------------------------------------
+! u r x v t
+
+URxvt*geometry:         112x22  
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~
+URxvt.keysym.KP_Home: \033[1~
+URxvt.keysym.KP_End:  \033[4~
+
+! Font
+URxvt*font: xft:DejaVu Sans Mono for Powerline:size=13,xft:Icons:size=13
+URxvt*boldFont: xft:DejaVu Sans Mono for Powerline:bold:size=13
+URxvt*termName: screen-256color
+URxvt*allow_bold: true
+URxvt*letterSpace: 0
+URxvt*urlLauncher: chromium  
+URxvt*scrollBar: false
+URxvt*scrollBar_right: true
+URxvt*scrollColor: #000000
+urxvt*depth: 32
+URxvt.perl-ext-common:
+
