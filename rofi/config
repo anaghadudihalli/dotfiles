@@ -1,6 +1,6 @@
 rofi.combi-modi:    window,drun,ssh
 !rofi.theme:         solarized
-rofi.font:          hack 12
+rofi.font:          DejaVu Sans Mono 13
 rofi.modi:          combi
 rofi.color-normal: #282C35, #f8f8f2,#282C35,#cbcfd2,#282c35
 rofi.color-urgent: #282C35, #f8f8f2,#282C35,#cbcfd2,#282c35
