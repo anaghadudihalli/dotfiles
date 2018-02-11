@@ -195,4 +195,4 @@ assign [class="whatsapp-desktop"] workspace $workspace3
 assign [class="jetbrains-pycharm-ce"] workspace $workspace4
 assign [class="Vlc"] workspace $workspace5
 assign [class="Spacefm"] workspace $workspace6
-assign [class="Mirage"] workspace $workspace6
+assign [class="Viewnior"] workspace $workspace6
