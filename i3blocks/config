@@ -32,6 +32,10 @@ separator=true
 separator_block_width=15
 markup=none
 
+# Temperature
+[temperature]
+label=
+interval=10
 
 # Internet Status
 [ssid]
@@ -41,12 +45,12 @@ interval=5
 separator=false
 
 [iface]
-label=IP
 interval=5
 separator=false
 
-#[bandwidth]
-#interval=5
+
+[bandwidth]
+interval=5
 
 # Battery
 [battery]
@@ -60,11 +64,6 @@ label=
 instance=Master
 interval=1
 signal=10
-
-# Temperature
-[temperature]
-label=
-interval=10
 
 # Date and Time
 [time]
