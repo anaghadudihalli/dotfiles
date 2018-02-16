@@ -54,7 +54,7 @@ interval=5
 
 # Battery
 [battery]
-label=
+label=
 instance=0
 interval=1
 
