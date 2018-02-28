@@ -34,7 +34,7 @@ markup=none
 
 # Temperature
 [temperature]
-label=
+label=
 interval=10
 
 # Internet Status
@@ -67,6 +67,6 @@ signal=10
 
 # Date and Time
 [time]
-label=
+label=
 command=date '+%H:%M:%S %A %d %b %Y'
 interval=1

@@ -1,0 +1,9 @@
+set noautofocus
+map s :open google<space>
+map D :duplicate<CR>
+map w :open wikipedia<space>
+map W :tabnew wikipedia<space>
+map < previousTab
+map > nextTab
+map , goBack
+map . goForward

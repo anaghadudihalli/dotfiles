@@ -72,12 +72,12 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1 # "
-set $workspace2 "2  "
-set $workspace3 "3  "
-set $workspace4 "4  "
-set $workspace5 "5  "
-set $workspace6 "6  "
+set $workspace1 "1 #"
+set $workspace2 "2 "
+set $workspace3 "3 "
+set $workspace4 "4 "
+set $workspace5 "5 "
+set $workspace6 "6 "
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -178,7 +178,7 @@ bindsym $mod+Shift+x exec poweroff
 bindsym $mod+Shift+b exec reboot
 
 #Lock
-bindsym $mod+Shift+l exec i3lock-fancy
+bindsym $mod+l exec i3lock-next
 
 #Run terminal on startup
 exec i3-sensible-terminal
@@ -192,7 +192,6 @@ assign [class="Firefox"] workspace $workspace2
 assign [class="Google-chrome"] workspace $workspace2
 assign [class="TelegramDesktop"] workspace $workspace3
 assign [class="whatsapp-desktop"] workspace $workspace3
-assign [class="jetbrains-pycharm-ce"] workspace $workspace4
 assign [class="Vlc"] workspace $workspace5
 assign [class="Spacefm"] workspace $workspace6
 assign [class="Viewnior"] workspace $workspace6
