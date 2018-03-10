@@ -33,7 +33,6 @@ bindsym $mod+d exec rofi -show run
 #start rofi as window switcher
 bindsym $mod+s exec rofi -show window
 
-
 # change focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
