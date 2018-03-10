@@ -190,12 +190,11 @@ bindsym $mod+c exec chromium
 bindsym $mod+Shift+w exec whatsapp-desktop
 
 #Wallpaper
-exec_always feh --bg-scale /home/anagha/pictures/abr.jpg
+exec_always feh --bg-scale /home/anagha/pictures/milkyway.jpg
 
 #Assign applications to a specific workspace
 assign [class="TelegramDesktop"] workspace $workspace3
 assign [class="jetbrains-pycharm-ce"] workspace $workspace4
-assign [class="Vlc"] workspace $workspace5
+assign [class="vlc"] workspace $workspace5
 assign [class="Spacefm"] workspace $workspace6
-assign [class="Viewnior"] workspace $workspace6
 assign [class="whatsapp-desktop"] workspace $workspace9
