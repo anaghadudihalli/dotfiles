@@ -185,6 +185,12 @@ bindsym $mod+l exec i3lock-next
 #Run on startup
 exec i3-sensible-terminal
 
+# Shortcut for chromium
+bindsym $mod+c exec chromium
+
+# Shortcut for whatsapp
+bindsym $mod+Shift+w exec whatsapp-desktop
+
 #Wallpaper
 exec_always feh --bg-scale /home/anagha/pictures/abr.jpg
 
