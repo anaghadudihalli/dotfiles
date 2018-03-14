@@ -194,7 +194,7 @@ exec_always feh --bg-scale /home/anagha/pictures/abr.jpg
 
 #Assign applications to a specific workspace
 assign [class="TelegramDesktop"] workspace $workspace3
-assign [class="jetbrains-pycharm-ce"] workspace $workspace4
-assign [class="vlc"] workspace $workspace5
+assign [class="vlc"] workspace $workspace4
+assign [class="jetbrains-pycharm-ce"] workspace $workspace5
 assign [class="Spacefm"] workspace $workspace6
 assign [class="whatsapp-desktop"] workspace $workspace9
