@@ -73,7 +73,7 @@ bindsym $mod+a focus parent
 set $workspace1 "1 #"
 set $workspace2 "2 "
 set $workspace3 "3 "
-set $workspace4 "4 "
+set $workspace4 "4 "
 set $workspace5 "5 "
 set $workspace6 "6 "
 set $workspace9 "9 "
@@ -190,7 +190,7 @@ bindsym $mod+c exec chromium
 bindsym $mod+Shift+w exec whatsapp-desktop
 
 #Wallpaper
-exec_always feh --bg-scale /home/anagha/pictures/milkyway.jpg
+exec_always feh --bg-scale /home/anagha/pictures/abr.jpg
 
 #Assign applications to a specific workspace
 assign [class="TelegramDesktop"] workspace $workspace3
