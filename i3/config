@@ -153,7 +153,7 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-		font pango:DejaVu Sans Mono-12 12
+		font pango:DejaVu Sans Mono-13 13
         status_command i3blocks
         colors {
         background  #2f343f 

@@ -7,8 +7,8 @@ XF86AudioRaiseVolume
 "amixer set Master toggle"
 XF86AudioMute
 
-"light -U 10"
+"light -U 5"
 XF86MonBrightnessDown
 
-"light -A 10"
+"light -A 5"
 XF86MonBrightnessUp

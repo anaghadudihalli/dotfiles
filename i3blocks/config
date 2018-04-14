@@ -48,6 +48,7 @@ separator=false
 interval=5
 separator=false
 
+
 [bandwidth]
 interval=5
 
@@ -67,5 +68,5 @@ signal=10
 # Date and Time
 [time]
 label=
-command=date '+%H:%M:%S %A %d %b %Y'
+command=date '+%H:%M:%S %A %b %d %Y'
 interval=1
