@@ -70,12 +70,11 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $workspace1 "1 #"
-set $workspace2 "2 "
+set $workspace1 "1 "
+set $workspace2 "2 "
 set $workspace3 "3 "
 set $workspace4 "4 "
-set $workspace5 "5 "
-set $workspace6 "6 "
+set $workspace5 "5 "
 set $workspace9 "9 "
 set $workspace10 "10 "
 
@@ -85,7 +84,7 @@ bindsym $mod+2 workspace $workspace2
 bindsym $mod+3 workspace $workspace3
 bindsym $mod+4 workspace $workspace4
 bindsym $mod+5 workspace $workspace5
-bindsym $mod+6 workspace $workspace6
+bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace $workspace9
@@ -97,7 +96,7 @@ bindsym $mod+Shift+2 move container to workspace $workspace2
 bindsym $mod+Shift+3 move container to workspace $workspace3
 bindsym $mod+Shift+4 move container to workspace $workspace4
 bindsym $mod+Shift+5 move container to workspace $workspace5
-bindsym $mod+Shift+6 move container to workspace $workspace6
+bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace $workspace9
@@ -178,16 +177,10 @@ bindsym $mod+Shift+x exec poweroff
 bindsym $mod+Shift+b exec reboot
 
 #Lock
-bindsym $mod+l exec i3lock-next
+bindsym $mod+Shift+l exec i3lock-next
 
 #Run on startup
-exec i3-sensible-terminal
-
-# Shortcut for chromium
-bindsym $mod+c exec chromium
-
-# Shortcut for whatsapp
-bindsym $mod+Shift+w exec whatsapp-desktop
+#exec i3-sensible-terminal
 
 #Wallpaper
 exec_always feh --bg-scale /home/anagha/pictures/abr.jpg
@@ -195,6 +188,6 @@ exec_always feh --bg-scale /home/anagha/pictures/abr.jpg
 #Assign applications to a specific workspace
 assign [class="TelegramDesktop"] workspace $workspace3
 assign [class="vlc"] workspace $workspace4
-assign [class="jetbrains-pycharm-ce"] workspace $workspace5
-assign [class="Spacefm"] workspace $workspace6
+assign [class="jetbrains-pycharm-ce"] workspace $workspace2
+assign [class="Spacefm"] workspace $workspace5
 assign [class="whatsapp-desktop"] workspace $workspace9
